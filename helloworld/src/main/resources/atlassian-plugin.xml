@@ -20,5 +20,6 @@
   </web-resource>
   <web-panel name="Hello World" i18n-name-key="hello-world.name" key="hello-world" location="HW Panel" weight="1000">
     <description key="hello-world.description">The Hello World Plugin</description>
+    <resource name="view" type="static"><![CDATA[<b>Hello World!</b>]]></resource>
   </web-panel>
 </atlassian-plugin>
